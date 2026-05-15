@@ -18,15 +18,15 @@
     <ClInclude Include="framework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Interpolation_1D.h">
+    <ClInclude Include="Interpolation_1D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Interpolation_2D.h">
+    <ClInclude Include="Interpolation_2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Export.cpp">
+    <ClCompile Include="Export.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

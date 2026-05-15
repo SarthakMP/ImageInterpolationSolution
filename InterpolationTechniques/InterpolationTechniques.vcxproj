@@ -149,12 +149,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Interpolation_1D.h" />
-    <ClInclude Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Interpolation_2D.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Interpolation_1D.h" />
+    <ClInclude Include="Interpolation_2D.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Sarth\source\repos\FFT(oneD)\FFT(oneD)\Export.cpp" />
+    <ClCompile Include="Export.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

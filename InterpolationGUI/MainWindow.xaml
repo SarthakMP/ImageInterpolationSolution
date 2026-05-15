@@ -6,7 +6,63 @@
         xmlns:local="clr-namespace:InterpolationGUI"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="White"/>
 
+        </Style>
+        
+    </Window.Resources>
+    
+    <Grid Background="#a12b3861">
+        <Grid x:Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="InputOutputDisplay" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top">Input</Label>
+                <Separator Grid.Column="0" VerticalAlignment="Top" Margin="5,30,0,5"/>
+                <Grid Grid.Column="0">
+                    <Image x:Name="InputImageDisplay" Margin="0,35,0,5">
+                    
+                    </Image>
+                </Grid>
+                
+                <Label Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top">Output</Label>
+                <Separator Grid.Column="1" VerticalAlignment="Top" Margin="5,30,0,5"/>
+                <Grid  Grid.Column="1">
+                    <Image x:Name="OutputImageDisplay" Margin="0,35,0,5">
+
+                    </Image>
+                </Grid>
+            </Grid>
+            <Border x:Name="InputPath" Grid.Row="1" BorderThickness="0,1,0,0" BorderBrush="Black">
+                <Grid >
+                
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Grid.Column="0" Grid.Row="0" x:Name="InputTextBox" Text="" 
+                             BorderThickness="0.5" BorderBrush="#55111111" Margin="10,2,2,2" Width="500" 
+                             HorizontalAlignment="Left" Background="#44111111"/>
+
+                    <Button Grid.Column="0" Grid.Row="1" x:Name="SubmitButton" Width="50" 
+                            VerticalAlignment="Center" HorizontalAlignment="Left" Content="Submit" 
+                            BorderThickness="0" Click="SubmitValues" Margin="150,0,0,5" Background="#44111111" Foreground="White"/>
+                    
+                    <Button Grid.Column="0" Grid.Row="1" x:Name="OpenDialogButton" Width="100"
+                            VerticalAlignment="Center" HorizontalAlignment="Left" Content="Open File" 
+                            BorderThickness="0" Click="OpenDialog" Margin="10,0,0,5" Background="#44111111" Foreground="White"/>
+                
+            </Grid>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

@@ -9,11 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="bin\Debug\net8.0-windows\opencv_world4130.lib" />
-    <None Include="bin\Debug\net8.0-windows\opencv_world4130d.lib" />
     <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.dll" />
-    <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.exp" />
-    <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.lib" />
   </ItemGroup>
 
   <ItemGroup>
