@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0-windows\opencv_world4130.lib" />
+    <None Include="bin\Debug\net8.0-windows\opencv_world4130d.lib" />
+    <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.dll" />
+    <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.exp" />
+    <None Include="bin\Debug\net8.0-windows\InterpolationTechniques.lib" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net8.0-windows\" />
+  </ItemGroup>
+
+</Project>
